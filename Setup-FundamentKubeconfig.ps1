@@ -15,7 +15,7 @@
     Reinstall functl in WSL even if it is already present.
 
 .EXAMPLE
-    .\Setup-FundamentKubeconfig.ps1 -KubeconfigPath "C:\Users\HorstP\Downloads\kubeconfig-downloaded-from-the-fundament-console.yaml"
+    .\Setup-FundamentKubeconfig.ps1 -KubeconfigPath "C:\Users\SomeUser\Downloads\kubeconfig-downloaded-from-the-fundament-console.yaml"
 #>
 [CmdletBinding()]
 param(
